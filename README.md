@@ -1,5 +1,5 @@
-#Address Book Code Review
-PHP week 1 code review: address book
+#Word Counter Code Review
+PHP week 2 code review: BDD
 
 ##Author
 
@@ -7,7 +7,7 @@ This project was created by Erik Tolentino
 
 ##Description
 
-This page will allow the user to add contacts to create an address book. Contacts are saved and displayed on the home page as existing contacts. User has the ability to clear all existing contacts.
+This page willow allow the user to enter a sentence, and a word within that sentence. Upon submitting, the user will then be taken to another page where they will find out numerically how many times the word they entered appeared in their inputted sentence.
 
 #Setup
 
