@@ -1,0 +1,23 @@
+English Specs
+
+1) Behavior: Input a single word
+   Input: 'burger'
+   Output: 'burger'
+   Why: To make sure that our program is capable of inputting and outputting a single word
+
+2) Behavior: Input multiple words/sentences
+   Input: 'delicious burger'
+   Output: 'delicious burger'
+   Why: To make sure that our program is capable of inputting and outputting multiple words/sentences
+
+3) Behavior: Find a specific word in a sentence
+   Input: 'an incredibly delicious burger'
+   Input2: 'burger'
+   Output: true
+   Why: To make sure our program is capable of finding a word in a sentence
+
+4) Behavior: Find how many times a word appears in a sentence
+   Input: 'an incredibly delicious burger'
+   Input2: 'burger'
+   Output: 1
+   Why: To make sure our program is capable of counting how many times a word appears in a sentence
