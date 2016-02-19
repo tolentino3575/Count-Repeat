@@ -22,6 +22,11 @@
                 return $input_word;
         }
 
+        function countWord($input_string, $input_word)
+        {
+            
+        }
+
     }
 
 ?>

@@ -6,42 +6,56 @@
     {
         function test_input_word()
         {
-        //Arrange
-        $test_CountRepeat = new CountRepeat;
-        $input = 'burger';
+            //Arrange
+            $test_CountRepeat = new CountRepeat;
+            $input = 'burger';
 
-        //Act
-        $result = $test_CountRepeat->singleWord($input);
+            //Act
+            $result = $test_CountRepeat->singleWord($input);
 
-        //Assert
-        $this->assertEquals("burger", $result);
+            //Assert
+            $this->assertEquals("burger", $result);
         }
 
         function test_input_multiple_words()
         {
-        //Arrange
-        $test_CountRepeat = new CountRepeat;
-        $input = "delicious burger";
+            //Arrange
+            $test_CountRepeat = new CountRepeat;
+            $input = "delicious burger";
 
-        //Act
-        $result = $test_CountRepeat->multipleWords($input);
+            //Act
+            $result = $test_CountRepeat->multipleWords($input);
 
-        //Assert
-        $this->assertEquals("delicious burger", $result);
+            //Assert
+            $this->assertEquals("delicious burger", $result);
         }
 
         function test_input_find_word()
         {
-        //Arrange
-        $test_CountRepeat = new CountRepeat;
-        $input_string = "an incredibly delicious burger";
-        $input_word = "burger";
+            //Arrange
+            $test_CountRepeat = new CountRepeat;
+            $input_string = "an incredibly delicious burger";
+            $input_word = "burger";
 
-        //Act
-        $result = $test_CountRepeat->findWord($input_string, $input_word);
+            //Act
+            $result = $test_CountRepeat->findWord($input_string, $input_word);
 
-        //Assert
-        $this->assertEquals("burger", $result);
+            //Assert
+            $this->assertEquals("burger", $result);
+        }
+
+        function test_input_count_word()
+        {
+            //Arrange
+            $test_CountRepeat = new CountRepeat;
+            $input_string = "a burger oh yes a burger";
+            $input_word = "burger";
+
+            //Act
+            $result = $test_CountRepeat->countWord($input_string, $input_word);
+
+            //Assert
+            $this->assertEquals(2, $result);
         }
     }
 
