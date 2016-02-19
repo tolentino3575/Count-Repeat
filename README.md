@@ -12,27 +12,30 @@ This page willow allow the user to enter a sentence, and a word within that sent
 #Setup
 
 To View:
-Git clone this repository,
-CD into address-book-review/web,
-Initialize localhost server there,
-View localhost in browser
+* Git clone this repository
+* From terminal, navigate into Repeat-Counter folder, and then into web folder
+* While in web folder, initialize localhost by typing php -S localhost:8000 into terminal
+* In browser, enter localhost:8000 in website bar
 
 To Edit:
-Git clone this repository,
-Open with your favorite text editor,
-Run composer install, composer update
+* Git clone this repository
+* From terminal, navigate into Repeat-Counter folder
+    * Run composer install in terminal while in home folder (Repeat-Counter)
+        * Installs Silex, Twig, and PHPUnit
+* Open with your favorite text editor
 
 #Technologies Used:
 
-Php
-Silex
-Twig
-Atom
-Terminal
-GitHub
-Bootstrap
+* Php
+* PHPUnit
+* Silex
+* Twig
+* Atom
+* Terminal
+* GitHub
+* Bootstrap
 
 #Legal
 
-MIT Licensed
-Copyright (c) 2016 Erik Tolentino
+* MIT Licensed
+* Copyright (c) 2016 Erik Tolentino
