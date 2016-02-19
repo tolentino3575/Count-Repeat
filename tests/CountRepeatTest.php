@@ -48,14 +48,14 @@
         {
             //Arrange
             $test_CountRepeat = new CountRepeat;
-            $input_string = "a burger oh yes a burger";
+            $input_string = "a burger oh yes a burger burger burger";
             $input_word = "burger";
 
             //Act
             $result = $test_CountRepeat->countWord($input_string, $input_word);
 
             //Assert
-            $this->assertEquals(2, $result);
+            $this->assertEquals(4, $result);
         }
     }
 
