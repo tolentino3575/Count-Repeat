@@ -34,10 +34,11 @@
         {
         //Arrange
         $test_CountRepeat = new CountRepeat;
-        $input = "an incredibly delicious burger";
+        $input_string = "an incredibly delicious burger";
+        $input_word = "burger";
 
         //Act
-        $result = $test_CountRepeat->findWord($input);
+        $result = $test_CountRepeat->findWord($input_string, $input_word);
 
         //Assert
         $this->assertEquals("burger", $result);

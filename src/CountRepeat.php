@@ -12,15 +12,16 @@
             return $input;
         }
 
-        function findWord($input)
+        function findWord($input_string, $input_word)
         {
-            
+            $string_words = explode(" ", $input_string);
+
+            foreach($string_words as $word) {
+                if ($word = $input_word);
+            }
+                return $input_word;
         }
+
     }
-
-
-
-
-
 
 ?>
