@@ -13,9 +13,9 @@ This page willow allow the user to enter a sentence, and a word within that sent
 
 To View:
 * Git clone this repository
-* From terminal, navigate into Repeat-Counter folder, and then into web folder
-* While in web folder, initialize localhost by typing php -S localhost:8000 into terminal
-* In browser, enter localhost:8000 in website bar
+* From terminal, navigate into Repeat-Counter folder, and then into its "web" folder
+* While in web folder, initialize localhost by typing "php -S localhost:8000" into terminal
+* In browser, enter localhost:8000 in website bar to view
 
 To Edit:
 * Git clone this repository
