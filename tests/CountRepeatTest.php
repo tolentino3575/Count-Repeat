@@ -29,6 +29,19 @@
         //Assert
         $this->assertEquals("delicious burger", $result);
         }
+
+        function test_input_find_word()
+        {
+        //Arrange
+        $test_CountRepeat = new CountRepeat;
+        $input = "an incredibly delicious burger";
+
+        //Act
+        $result = $test_CountRepeat->findWord($input);
+
+        //Assert
+        $this->assertEquals("burger", $result);
+        }
     }
 
 ?>
