@@ -24,7 +24,9 @@
 
         function countWord($input_string, $input_word)
         {
-            $wordsUpperCase = strtoupper($input_string);
+
+            $onlyLetters = preg_replace("/[^A-Za-z ]/", "", $input_string);
+            $wordsUpperCase = strtoupper($onlyLetters);
             $wordUpperCase = strtoupper($input_word);
             $string_words = explode(" ", $wordsUpperCase);
             $word_counter = 0;
