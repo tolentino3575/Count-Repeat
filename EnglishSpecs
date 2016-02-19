@@ -13,11 +13,11 @@ English Specs
 3) Behavior: Find a specific word in a sentence
    Input: 'an incredibly delicious burger'
    Input2: 'burger'
-   Output: true
+   Output: 'true'
    Why: To make sure our program is capable of finding a word in a sentence
 
 4) Behavior: Find how many times a word appears in a sentence
-   Input: 'an incredibly delicious burger'
+   Input: 'a burger oh yes a burger'
    Input2: 'burger'
-   Output: 1
+   Output: 2
    Why: To make sure our program is capable of counting how many times a word appears in a sentence

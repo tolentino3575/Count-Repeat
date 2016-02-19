@@ -41,7 +41,7 @@
             $result = $test_CountRepeat->findWord($input_string, $input_word);
 
             //Assert
-            $this->assertEquals("burger", $result);
+            $this->assertEquals(true, $result);
         }
 
         function test_input_count_word()
