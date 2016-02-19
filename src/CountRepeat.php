@@ -36,7 +36,7 @@
                     $word_counter += 1;
                 }
             }
-                    return $word_counter;
+                return $word_counter;
         }
     }
 
