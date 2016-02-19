@@ -6,6 +6,11 @@
         {
             return $input;
         }
+
+        function multipleWords($input)
+        {
+            return $input;
+        }
     }
 
 
