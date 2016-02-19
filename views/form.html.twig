@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <title></title>
     </head>
     <body>
-        <h1>How many times is a certain word in a sentence, you ask?</h1>
-        <h1>Lets find out...</h1>
-            <form action="result" method="post">
-                <label for="string">Enter a sentence...</label>
-                <input id="string" name="string" required>
-                <br>
-                <label for="word">Enter a word from that sentence...</label>
-                <input id="word" name="word" required>
-            <button type="submit">MAGIC</button>
-        </form>
+        <div class="container">
+            <h1>How many times is a certain word in a sentence, you ask?</h1>
+            <h1>Lets find out...</h1>
+                <form action="result" method="post">
+                    <div class="form-group">
+                        <label for="string">Enter a sentence...</label>
+                        <input id="string" name="string" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="word">Enter a word from that sentence...</label>
+                        <input id="word" name="word" required>
+                    </div>
+                <button class="btn btn-danger lg" type="submit">MAGIC</button>
+                </form>
+        </div>
     </body>
 </html>
