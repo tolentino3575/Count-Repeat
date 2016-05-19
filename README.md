@@ -7,7 +7,7 @@ This project was created by Erik Tolentino
 
 ##Description
 
-This page willow allow the user to enter a sentence, and a word within that sentence. Upon submitting, the user will then be taken to another page where they will find out numerically how many times the word they entered appeared in their inputted sentence.
+This page willow allow the user to enter a sentence and a word within that sentence. Upon submitting, the user will then be taken to another page where they will find out numerically how many times the word they entered appeared in their inputted sentence.
 
 #Setup
 
